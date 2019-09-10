@@ -8,6 +8,7 @@ import {operators} from  '../../../data'
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
+  const [operatorState, setOperatorState] = useState(operators);
 
   return (
     <div>
