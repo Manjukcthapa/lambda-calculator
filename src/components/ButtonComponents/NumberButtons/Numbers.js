@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import "./Number.css";
 //import any components needed
 import NumberButton from './NumberButton';
 import {numbers} from "../../../data.js"
@@ -13,12 +13,12 @@ const Numbers = (props) => {
   // STEP 2 - add the imported data to state
   const [numberState, setNumberState] = useState(numbers);
   return (
-    <div>
+    <div  className="listnumber">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
       {/* <div > {numbers.map((item,i) => <NumberButton key={i} number={item}/>)}</div> */}
-      {numberState.map(number => { 
+      {numbers.map(number => { 
          return <NumberButton key={number} text={number} addNumber={props.addNumber} />;
        })}
     </div>

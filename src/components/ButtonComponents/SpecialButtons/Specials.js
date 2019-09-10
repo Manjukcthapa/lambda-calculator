@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SpecialButton from "./SpecialButton";
 import { specials } from "../../../data";
+import "./special.css";
 
 //import any components needed
 
@@ -11,7 +12,7 @@ const Specials = () => {
   const [operatorState, setOperatorState] = useState(specials);
 
   return (
-    <div>
+    <div className="specialist">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
