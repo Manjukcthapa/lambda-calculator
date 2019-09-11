@@ -1,9 +1,9 @@
 import React from "react";
 
-const SpecialButton = ({specials}) => {
+const SpecialButton = (props) => {
   return (
     <>
-      <button className="specialsbutton"> {specials}</button>
+      <button className="specialsButton" onClick={() => props.doSpecial(props.special) }>{props.special}</button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </>
   );
