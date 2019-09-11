@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import "./Number.css";
 //import any components needed
 import NumberButton from './NumberButton';
 import {numbers} from "../../../data.js"
