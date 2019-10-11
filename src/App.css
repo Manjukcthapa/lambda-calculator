@@ -5,6 +5,8 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    margin-left: 380px;
+    margin-top: 50px;
 }
 .display {
     margin-top: 25px;
@@ -20,3 +22,87 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+
+  .symbols{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+  }
+
+  .symbols .specials{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 1;
+   }
+
+   .symbols .numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+   }
+
+   .symbols .operators{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       align-content: center;
+       flex-direction: column;
+       justify-content: space-around;
+       order: 3;
+   }
+
+
+
+  .symbols .specials{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 1;
+   }
+
+
+   button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.8rem;
+    color: black;
+    margin: 0.4rem 0;
+    border-bottom: 3px solid black;
+   }
+
+.logoicon{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.specials button{
+  background-color: rgb(49, 124, 216);
+ }
+
+ .numbers button{
+  background-color: rgb(16, 68, 140);
+}
+
+.operators button{
+  background-color: rgb(94, 199, 240);
+}
+
+[class="0"] {
+  width: 170px;
+  border-radius: 30px;
+}
+
+.leftSide{
+  margin-top: 78px;
+}
+
